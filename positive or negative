@@ -1,1 +1,19 @@
+import java.util.Scanner;
+
+class checknumbers 
+{
+	public static void main(String[] args) 
+	{
+     int num;
+	  Scanner sc=new Scanner(System.in);
+	  System.out.println("Enter A Number :");
+	  num = sc.nextInt();
+		if(num > 0)
+			System.out.println(num+ " It Is Positive Number");
+		else if(num < 0)
+			System.out.println(num+ " It Is negative Number");
+		else
+			System.out.println(num+ " It Is  Zero");
+		}
+}
 
